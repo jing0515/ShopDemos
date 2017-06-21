@@ -3,13 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.bawei.lvwenjing.shopdemo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
-        tools:replace="android:icon, android:theme"
         android:name=".base.IApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/CAppTheme">
+        android:theme="@style/CAppTheme"
+        tools:replace="android:icon, android:theme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

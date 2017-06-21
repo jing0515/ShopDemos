@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sdk_selectpopwin_down_press" />
+
+    <ImageView
+        android:id="@+id/pinpai_ivtitle"
+        android:layout_width="400dp"
+        android:layout_height="35dp"
+        android:scaleType="fitXY" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/hui" />
+    <ImageView
+        android:id="@+id/pinpai"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/hui" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/pinpai_horizontal_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+</LinearLayout>
