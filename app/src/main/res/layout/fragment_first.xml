@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/erweima"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_scan_top" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/comment"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:text="送您300减100神器"
+            android:textColor="@color/qianhui" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="0"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_mes_top" />
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/fragment_tab"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/Firstfragment_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,168 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/paysdk2_bg_top"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_white_side"
+        android:text="送您300减100神器"
+        android:textColor="@color/qianhui" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/fragmentsecond_rg"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/fragmentsecond_rb1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/secod_text_selector"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="宝宝奶粉"
+                android:textColor="@drawable/secod_text_color"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/fragmentsecond_rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/secod_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="辅食营养"
+                android:textColor="@drawable/secod_text_color"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/fragmentsecond_rb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/secod_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="宝宝尿布"
+                android:textColor="@drawable/secod_text_color"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/fragmentsecond_rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/secod_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="洗护用品"
+                android:textColor="@drawable/secod_text_color"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/fragmentsecond_rb5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/secod_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="喂养用品"
+                android:textColor="@drawable/secod_text_color"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/fragmentsecond_rb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/secod_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="宝宝玩乐"
+                android:textColor="@drawable/secod_text_color"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/fragmentsecond_rb7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/secod_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="妈妈专区"
+                android:textColor="@drawable/secod_text_color"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/fragmentsecond_rb8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/secod_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="童鞋童装"
+                android:textColor="@drawable/secod_text_color"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/fragmentsecond_rb9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/secod_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="图书天地"
+                android:textColor="@drawable/secod_text_color"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/fragmentsecond_rb10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/secod_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="童车童鞋"
+                android:textColor="@drawable/secod_text_color"
+                android:textSize="18dp" />
+
+        </RadioGroup>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/fragmentsecond_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
