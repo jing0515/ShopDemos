@@ -6,7 +6,7 @@
 
     <ImageView
         android:id="@+id/first_onephoto_itme_iv"
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="180dp"
         android:scaleType="fitXY"
         android:src="@drawable/my_reward_bg_2" />

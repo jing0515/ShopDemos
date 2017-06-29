@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sdk_selectpopwin_down_press" />
+
+    <ImageView
+        android:id="@+id/first_index_houdong_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/rob_current_tab" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/qianhui" />
+
+    <ImageView
+        android:id="@+id/first_index_houdong_iv1"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:background="@drawable/home_evaluate_pro_icon"
+            android:text="包邮"
+            android:textColor="@color/tab_bg" />
+
+        <TextView
+            android:id="@+id/first_index_houdong_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="haha"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/first_index_houdong_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="hah"
+        android:textColor="@color/hui"
+        android:textSize="15dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/first_index_houdong_price"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="9.9"
+            android:textColor="@color/red" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/cart4_lable_bg_tuangou" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sdk_selectpopwin_down_press" />
+
+    <ImageView
+        android:id="@+id/first_index_houdong_iv2"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:background="@drawable/home_evaluate_pro_icon"
+            android:text="包邮"
+            android:textColor="@color/tab_bg" />
+
+        <TextView
+            android:id="@+id/first_index_houdong_tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="haha"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/first_index_houdong_tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="hah"
+        android:textColor="@color/hui"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/first_index_houdong_price2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="9.9"
+            android:textColor="@color/red" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/cart4_lable_bg_tuangou" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/qianhui" />
+
+    <ImageView
+        android:id="@+id/first_index_houdong_gengduo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/paysdk_card_head_bg"
+        android:gravity="center"
+        android:text="查看更多"
+        android:textSize="18dp" />
+</LinearLayout>

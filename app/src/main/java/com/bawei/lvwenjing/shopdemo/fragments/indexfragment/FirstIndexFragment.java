@@ -16,7 +16,6 @@ import com.bawei.lvwenjing.shopdemo.network.BaseObServer;
 import com.bawei.lvwenjing.shopdemo.network.RetrofitFactory;
 import com.google.gson.Gson;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -24,7 +23,6 @@ import java.util.List;
  */
 public class FirstIndexFragment extends Fragment {
 
-    List<InforBean.DataBean> list = new ArrayList<InforBean.DataBean>();
     private RecyclerView recyclerView;
 
     public FirstIndexFragment() {
@@ -34,9 +32,11 @@ public class FirstIndexFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         getInfor();
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_first_index, container, false);
+
         init(view);
         return view;
 

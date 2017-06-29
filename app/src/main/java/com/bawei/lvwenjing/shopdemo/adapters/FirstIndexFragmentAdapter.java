@@ -38,22 +38,18 @@ public class FirstIndexFragmentAdapter extends RecyclerView.Adapter<RecyclerView
         RecyclerView.ViewHolder viewHolder = null;
         switch (viewType) {
             case 0:
-                System.out.println("\"0000\" = " + "0000");
                 view = LayoutInflater.from(parent.getContext()).inflate(R.layout.first_onephoto_itme, null);
                 viewHolder = new Firstonephotoitme(view);
                 break;
             case 1:
-                System.out.println("\"1111\" = " + "1111");
                 view = LayoutInflater.from(parent.getContext()).inflate(R.layout.first_shangxin_itme, null);
                 viewHolder = new FirstShangxin(view);
                 break;
             case 2:
-                System.out.println("\"2222\" = " + "2222");
                 view = LayoutInflater.from(parent.getContext()).inflate(R.layout.first_mkill_itme, null);
                 viewHolder = new FirstSKillitme(view);
                 break;
             case 3:
-                System.out.println("\"2222\" = " + "2222");
                 view = LayoutInflater.from(parent.getContext()).inflate(R.layout.first_huodong_itme, null);
                 viewHolder = new FirstHoudong(view);
                 break;

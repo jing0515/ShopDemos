@@ -18,6 +18,16 @@
     <color name="qianred">#FFFDAD3D</color>
     <color name="qianhui">#dcdfdb</color>
     <color name="yellow">#FDE23D</color>
+    <color name="pressed_icon_color">#e53e42</color>
+
+    <color name="background_color">#f6f6f6</color>
+
+    <color name="main_red_text">#e53e42</color>
+    <dimen name="padding_20dp">20dp</dimen>
+
+    <color name="splitline_color">#dddddd</color>
+
+    <color name="cblack">#000000</color>
 
     <color name="qianhei">#272727</color>
 </resources>

@@ -33,7 +33,12 @@
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_weight="1" />
-
+        <View
+            android:layout_width="@dimen/margin_1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_10dp"
+            android:layout_marginTop="@dimen/padding_10dp"
+            android:background="@color/splitline_color" />
         <ImageView
             android:layout_marginLeft="10dp"
             android:id="@+id/huodong_iv2"

@@ -30,7 +30,12 @@
             android:layout_width="match_parent"
             android:layout_height="149dp"
             android:layout_weight="1" />
-
+        <View
+            android:layout_width="@dimen/margin_1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_10dp"
+            android:layout_marginTop="@dimen/padding_10dp"
+            android:background="@color/splitline_color" />
         <ImageView
             android:layout_marginLeft="2dp"
             android:id="@+id/zhishi_iv2"
@@ -52,7 +57,12 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_weight="1" />
-
+        <View
+            android:layout_width="@dimen/margin_1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_10dp"
+            android:layout_marginTop="@dimen/padding_10dp"
+            android:background="@color/splitline_color" />
         <ImageView
             android:id="@+id/zhishi_iv4"
             android:layout_width="match_parent"
@@ -74,7 +84,12 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_weight="1" />
-
+        <View
+            android:layout_width="@dimen/margin_1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_10dp"
+            android:layout_marginTop="@dimen/padding_10dp"
+            android:background="@color/splitline_color" />
         <ImageView
             android:id="@+id/zhishi_iv6"
             android:layout_width="match_parent"
